@@ -22,7 +22,7 @@
                 <a href="https://www.linkedin.com/in/gauravlokhande07/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/07gaura" target="_blank"><i class="fa-brands fa-github"></i></a>
                 <a href="https://stackoverflow.com/users/13552918/gaurav-lokhande" target="_blank"><i class="fa-brands fa-stack-overflow"></i></a>
-              </div>
+            </div>
         </div>
         <div class="content">
             <div class="right">
@@ -151,7 +151,7 @@
         };
         var data = null
 
-        data = await fetch("http://127.0.0.1:5000/posts", requestOptions).then(response => response.json())
+        data = await fetch("https://lazy-blue-leopard-sari.cyclic.app/posts", requestOptions).then(response => response.json())
         .catch(error => console.log('error', error));
         //starred_repo_list = data.json()
         data = data["result"]
